@@ -1,0 +1,26 @@
+{
+  "name": "ahj-homework-8-2-serv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "author": "tigerminde",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^2.0.0",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^3.4.0",
+    "ws": "^7.2.1"
+  }
+}
